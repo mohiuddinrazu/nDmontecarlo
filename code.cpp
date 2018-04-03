@@ -16,9 +16,9 @@ double int_mcnd(double(*)(double[],int), double[], double[], int, int);
 
 int main()
 {
-    const int n = 2;       /* define how many integrals */
-    double a[n] = {0.0, 0.0}; /* left end-points */
-    double b[n] = {1.0, 1.0}; /* right end-points */
+    const int n = 2;       /* define how many variables */
+    double a[n] = {0.0, 0.0}; /* lower limits */
+    double b[n] = {1.0, 1.0}; /* upper limit */
     double result;
     int i, m;
     int ntimes;
