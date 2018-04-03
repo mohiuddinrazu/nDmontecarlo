@@ -28,8 +28,8 @@ int main()
     time_t seconds_i;
     seconds_i = time (NULL);
 
-    m = 2;                // initial number of intervals
-    ntimes = 20;
+    m = 10;                // initial number of intervals
+    ntimes = 10;
 
     // Number of interval doublings with nmax=2^ntimes.
     // This is to show that higher number of intervals
